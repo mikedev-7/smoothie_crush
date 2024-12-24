@@ -149,6 +149,7 @@ button{
 .open-opportunities h2{
     color: #467e48;
     font-weight: 900;
+    margin-bottom: 1.25rem;
 }
 
 .subheading h3{
@@ -161,9 +162,6 @@ button{
     width: 35rem;
 }
 
-.open-opportunities h2{
-    margin-bottom: 1.25rem;
-}
 
 
 .subheading{
@@ -270,34 +268,121 @@ button{
     object-fit: cover;
 }
 
+
+
 /* Phone screen responsivness */
 @media (max-width: 480px){
         .footer{
             display: flex;
-            align-items: center;
             flex-direction: column;
+           justify-content: center;
+           align-items: center;
+           text-align: center;
+           line-height: 2rem;
+           
+            
+
         }
     
         .hero-1,  .hero-3{
             display: flex;
             flex-direction: column;
+            justify-content: center;
+            align-items: center;
             margin-bottom: 7rem;
         }
 
         .hero-2{
             display: flex;
             flex-direction: column-reverse;
+            justify-content: center;
+            align-items: center;
             margin-bottom: 7rem;
         }
 
+        .smoothie-features{
+            width: 80%;
+            display: grid;
+            place-self: center;
+        }
+
+        .features-header{
+            font-size: 1.25rem;
+        }
+
+        .feauture h3{
+            font-size: 1rem;
+        }
         .subheadings{
             display: flex;
             flex-direction: column;
+            justify-content: center;
+           align-items: center;
+          
+        }
+        .subheading{
+            margin-bottom: 2rem;
         }
         .image-row{
             display: flex;
             flex-direction: column;
             margin-bottom: 1.25rem;
+            justify-content: center;
         }
         
+        .image-row img{
+           margin-bottom: 3rem;
+        }
+        
+        .features-title{
+            font-size: 1.5rem;
+            width: 100%;
+        }
+        .opening-hours{
+            margin-top: 3rem;
+        }
+        .quick-links{
+            margin-top: 3rem;
+        }
+        .location{
+            margin-top: 3rem;
+        }
+        .enquiry h1{
+            color: #467e48;
+            margin-bottom: 1rem;
+            font-size: 1.25rem;
+        
+        }
+        .open-opportunities{
+            width: 80%;
+            display: grid;
+            place-self: center;
+            margin-bottom: 2rem;
+        }
+        .open-opportunities h2{
+            font-size: 1.25rem;
+        }
+
+        .subheading h3{
+            font-size: 1rem;
+        }
+
+        .enquiry-case{
+            width: 100%;
+        }
+
+        .enquiry{
+                background-color: white;
+                padding: 3.5rem;
+                display: grid;
+                place-self: center;
+                text-align: center;
+                border-radius: 1rem;
+        }
+
+        .smoothie-features2{
+            display: grid;
+            place-self: center;
+            width: 80%;
+        }
 }
