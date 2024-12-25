@@ -304,6 +304,7 @@ button{
             width: 80%;
             display: grid;
             place-self: center;
+            margin-bottom: 2rem;
         }
 
         .features-header{
@@ -328,6 +329,7 @@ button{
             flex-direction: column;
             margin-bottom: 1.25rem;
             justify-content: center;
+            align-items: center;
         }
         
         .image-row img{
@@ -373,7 +375,10 @@ button{
 
         .enquiry{
                 background-color: white;
-                padding: 3.5rem;
+                padding-top: 3.5rem;
+                padding-bottom: 3.5rem;
+                padding-left: 0;
+                padding-right: 0;
                 display: grid;
                 place-self: center;
                 text-align: center;
@@ -384,5 +389,6 @@ button{
             display: grid;
             place-self: center;
             width: 80%;
+            margin-bottom: 2rem;
         }
 }
