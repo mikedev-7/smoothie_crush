@@ -41,3 +41,31 @@ carouselTrack.addEventListener('mousemove', (event) => {
 carouselTrack.addEventListener('mouseleave', () => {
     isDragging = false;
 })
+
+// for navbar
+
+// const toggleButton = document.querySelector('.menu-toggle');
+//     const navMenu = document.querySelector('.nav');
+
+//     toggleButton.addEventListener('click', () => {
+//         navMenu.classList.toggle('active');
+//         toggleButton.classList.toggle('active');
+//     });
+
+
+const toggleButton = document.querySelector('.menu-toggle');
+    const navMenu = document.querySelector('.sidebar');
+
+    function showSidebar() {
+        navMenu.classList.add('active');  // Add 'active' class to show the sidebar
+    }
+
+    function hideSidebar() {
+        navMenu.classList.remove('active');  // Remove 'active' class to hide the sidebar
+    }
+
+    // You can also toggle it using the same button
+    toggleButton.addEventListener('click', () => {
+        navMenu.classList.toggle('active');
+        toggleButton.classList.toggle('active');
+    });
