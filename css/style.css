@@ -1,6 +1,3 @@
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css');
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&display=swap');
-
 
 :root{
     --green:#4CAF50;
@@ -13,7 +10,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
     list-style: none;
 }
 
@@ -45,7 +43,7 @@
 }
 
 .sidebar{
-    display: none; /* Initially hidden */
+    display: none !important ;
     position: fixed;
     list-style: none;
     top: 0;
@@ -82,6 +80,7 @@
 .nav-links ul li a{
     text-decoration: none;
     color: black;
+    font-weight: 600;
 }
 
 .quick-links ul li a{
@@ -173,6 +172,7 @@ button{
     color: #467e48;
     font-weight: 900;
     margin-bottom: 2.5rem;
+    font-size: larger;
 }
 
 .feauture h3{
